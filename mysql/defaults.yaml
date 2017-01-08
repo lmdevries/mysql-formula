@@ -238,7 +238,7 @@ SUSE:
         log: /var/log/mysqld_multi.log
     append: |
       !includedir /etc/my.cnf.d
-	  
+
 Arch:
   server: mariadb
   client: mariadb-clients
